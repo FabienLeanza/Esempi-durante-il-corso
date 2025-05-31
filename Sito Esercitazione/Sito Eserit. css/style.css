@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+}
+.body {
+  background-color: rgb(187, 118, 118);
+  color: #fff;
+}
+.font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: #908a8a;
+  color: white;
+  padding: 10px;
+  font-size: large;
+  text-align: left;
+  word-spacing: 60px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+.navlist {
+  font-size: large;
+  list-style-type: none;
+  display: flex;
+  color: tan;
+  text-align: center;
+}
+h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+  position: relative;
+}
+p {
+  color: rgb(221, 210, 210);
+  margin: 10px 0;
+  padding: 10px;
+}
+.nature-image {
+  background-image: url(assets/nature.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 500px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  top: 50px;
+  left: 50px;
+}

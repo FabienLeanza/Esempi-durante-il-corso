@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit=""enctype="multipart/form-data">
+
+      <button aria-label="Chiudi finestra">X</button>
+      <button aria-hidden="true">X</button>
+      but
+
+      <p title="Ciccio">Ciccio</p>
+<div>
+      <textarea 
+      name="testo" 
+      placeholder="inserisci testo..."
+      rows="3"
+      cols="30"
+      maxlength="25"
+      spellcheck="true"></textarea>
+      </div>
+
+      <hr />
+
+      <label for="select">Scegli un'opzione:
+        <select name="opzioni" id="select">
+          <option value="opzione1">Opzione 1</option>
+          <option value="opzione2"disabled>Opzione 2
+
+          </option>
+          <option value="opzione3">Opzione 3</option>
+          <option value="opzione4"selected>Opzione 4</option>
+        </select>
+      </label>
+
+
+      <hr>
+
+
+      <!-- genera un bottone generico che attiva funzioni esterne al form -->
+      <input type="button" value="Clicca qui" />
+      <input type="submit" value="Invia"  />
+      <button onclick="">Torna Indietro</button>
+      <input type="reset" value="Resetta" />
+
+      <input type="reset" value="Resetta" />
+
+      <input type="file" name="file" accept=".jpg" multiple/>
+      <input
+        type="text"
+        maxlength="10"
+        name="nome-utente"
+        placeholder="Inserisci il tuo nome..."
+      />
+      <hr />
+      <input
+        type="password"
+        name="password-utente"
+        placeholder="Inserisci la tua password..."
+      />
+
+      <hr />
+      <input
+        type="email"
+        name="email-utente"
+        placeholder="Inserisci la tua email..."
+      />
+      <hr />
+      <input type="search" name="ricerca" placeholder="Cerca..." />
+      <hr />
+      <input
+        type="number"
+        name="eta-utente"
+        placeholder="Inserisci la tua
+      età..."
+        min="0"
+        max="120"
+      />
+      <hr />
+      <input
+        type="tel"
+        name="telefono-utente"
+        placeholder="Inserisci il tuo numero di telefono..."
+        pattern="[0-9]{10}"
+      />
+      <hr />
+      <input type="time" />
+      <input type="date" />
+      <input type="datetime-local" />
+      <hr />
+
+      
+      
+      <div>
+        <label for="">
+          <input type="checkbox" name="accetto-termini" />
+          Accetto i termini e le condizioni
+        </label>
+        <label for="">
+          <input type="checkbox" name="valore1" /> NO
+        </label>
+      </div>
+
+      <div>
+        <label for="">
+          <input type="radio" name="colore" value="Verde" />
+          Verde
+        </label>
+        </div>
+        <div>
+        <label for="">
+          <input type="radio" name="colore" value="Blu" />
+          Blu
+        </label>
+      </div>
+
+      <hr>
+      <label for="select-colore">
+        Scegli un colore:
+        <input type="color"
+        id="select-colore"
+        name="colore
+        " value="#ff0000" /> 
+      </label>
+
+      <hr />  
+
+      <hr>
+
+
+      <input type="url"
+        name="sito-web"
+        placeholder="www.google.it">
+
+      <hr />
+
+
+
+
+    <!-- <form>
+        <input
+         name="nome-utente" 
+         placeholder="Inserisci il tuo nome..."
+         value="Ciccio"
+         required
+         disabled
+         /> 
+        
+        
+    </form>
+    <-- table= contenitore della tabella 
+    <table>
+        <-- thead = intestazione della tabella 
+        <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Cognome</th>
+        <th>Età</th>
+        </thead>
+        <tbody>
+      </tr>
+      <tr>
+        <td>Mario</td>
+        <td>Rossi</td>
+        <td>30</td>
+        </tr>
+        <tr>
+            <td>Luigi</td>
+            <td>Verdi</td>
+            <td>25</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+      <tr>
+      <td colspan="2">Totale</td>
+      <td>55</td>
+      </tr>
+       </tfoot>
+    </table> -->
+  </body>
+</html>
